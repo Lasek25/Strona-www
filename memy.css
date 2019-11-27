@@ -1,0 +1,18 @@
+#strona{
+    width: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    /*margin-right: 1%;*/
+}
+nav.right{
+    width: 30%;
+    margin-left: -3%;
+    margin-right: 30px;
+}
+figcaption{
+    font-family: 'Hind Vadodara', sans-serif;
+}
+@media screen and (max-width: 1380px) {
+    nav.right li a {width: 90%; display: block;}
+    nav.right {width: 90%; }
+}

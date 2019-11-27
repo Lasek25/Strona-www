@@ -1,0 +1,187 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body{
+    background-color: #ffec96;
+    font-family: Arial, serif;
+    /*height: 10%;*/
+}
+h1{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 2.8em;
+    color: #553d1a;
+}
+h2{
+    font-family: 'PT Sans Caption', sans-serif;
+    border-top: #553d1a solid 2px;
+    margin-right: 10%;
+    font-size: 1.5em;
+}
+h3{
+    font-family: sans-serif;
+    color: black;
+    margin-top: 5%;
+    font-size: 1.1em;
+}
+#naglowek{
+    font-size: 5em;
+    font-family: Arial ,"Times New Roman", sans-serif;
+    color: white;
+    text-align: center;
+    padding: 23px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+header{
+    background-image: url("pieski/tlo.jpg");
+    background-size: 3%;
+}
+nav.top{
+    margin: 1.5% 2% 3% 1.5%;
+}
+nav ul{
+    list-style: none;
+}
+nav.top:after {
+    content:'';
+    display:block;
+    clear:both;
+}
+nav.top li a{
+    float: left;
+    display: block;
+    border: 2px solid #553d1a;
+    border-radius: 20px;
+    margin: 0 0.2em;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 1.6em;
+    /*width: 15.755%;*/
+    /*padding: 10px 5x;*/
+    width: 15%;
+    padding: 10px 5px;
+    background-color: white;
+    box-shadow: 5px 5px 10px;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+
+}
+nav.top ul a:hover{
+    background: #553d1a url("pieski/dog-paw.png") repeat-x 2% center;
+    color: white;
+    border: 2px solid white;
+    box-shadow: black 5px 5px 10px;
+    font-family: 'Mukta', sans-serif;
+
+}
+nav.right{
+    float: right;
+    width: 26%;
+    margin: 0 4%;
+
+    padding: 0;
+}
+nav.right li a{
+    float: bottom;
+    display: block;
+    margin: 0.5em 0.5em;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 1.3em;
+    box-shadow: 5px 5px 10px;
+    background-color: white;
+    text-decoration: none;
+    border: 2px solid #553d1a;
+    font-family: 'Mukta', sans-serif;
+
+}
+nav.right ul a:hover{
+    background: #553d1a url("pieski/dog-paw.png") repeat-x 2% center;
+    color: white;
+    border: 2px solid white;
+    box-shadow: black 5px 5px 10px;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+#strona{
+    float: left;
+    width: 50%;
+    border: solid 2px #553d1a;
+    margin: 1% 4%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    padding: 2% 1% 1% 6%;
+}
+#strona p, article{
+    margin: 5% 5% 5% 0;
+    padding-right: 6%;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+article{
+    margin-top: 3%;
+}
+#dodatek1 {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 1403px) {
+    nav.top li a {width: 14%;}
+    nav.top {margin-left: 3%;}
+}
+
+@media screen and (max-width: 898px) {
+    nav.top li a {width: 90%; float: bottom;}
+    nav.top {margin-left: 6%;}
+    /*#strona {margin-bottom: auto;}*/
+    nav.right {margin: 2.8%;}
+}
+@media screen and (max-width: 1000px) {
+    #dodatek1{visibility: visible}
+}
+aside{
+    width: 24%;
+    float: right;
+    border: solid 2px #553d1a;
+    margin: 1% 4%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+}
+.figure{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 1%;
+    padding-top: 5%;
+}
+footer:before {
+    content:'';
+    display:block;
+    clear:both;
+}
+footer{
+    display: block;
+    margin: 0 4% 3%;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara|Mukta:600|PT+Sans+Caption:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="kontakt.css">
+    <script src="index.js"></script>
+</head>
+<body>
+<header><h1 id="naglowek">Pieskowa Strona Świata</h1></header>
+<nav class="top">
+    <ul>
+        <li><a href="index.html" class="homeLink">Strona główna</a> </li>
+        <li><a href="rasy.html">Rasy</a> </li>
+        <li><a href="memy.html">Memy</a> </li>
+        <li><a href="multimedia.html">Multimedia</a> </li>
+        <li><a href="o_autorze.html">O autorze</a> </li>
+        <li><a href="kontakt.html">Kontakt</a> </li>
+    </ul>
+</nav>
+<form action="#" method="get">
+    <h1>FORMULARZ KONTAKTOWY</h1>
+    <h2>To właśnie miejsce, w którym możesz ocenić moją pracę lub zasugerować jakieś zmiany, zapraszam do kontaktu!</h2>
+    <fieldset name="dane_osobowe"><p id="tekst"><i>Pola oznaczone znakiem </i><em>*</em><i> są obowiązkowe do
+        wypełnienia!</i></p>
+        <label>Imię <em>*</em></label><input type="text" name="f_imie" placeholder="Wpisz imię"/> <br/>
+        <span class="err" id="e_imie"> </span><br>
+        <label>Nazwisko <em>*</em></label><input type="text" name="f_nazwisko" placeholder="Wpisz nazwisko"/> <br/>
+        <span class="err" id="e_nazwisko"> </span><br>
+        <label>Płeć <em>*</em></label>
+        <input name="f_plec" value="f_k" type="radio" />kobieta
+        <input name="f_plec" value="f_m" type="radio" />mężczyzna <br/>
+        <span class="err" id="e_plec"> </span><br>
+        <label>E-mail <em>*</em></label><input type="text" name="f_email" placeholder="Wpisz email"/> <br/>
+        <span class="err" id="e_email"> </span><br>
+        <label>Telefon</label><input type="tel" name="f_telefon" placeholder="Wpisz nr telefonu"/> <br/><br>
+        <label>Temat <em>*</em></label>
+        <select name="f_temat">
+            <option name="f_temat" value="f_brak">Wybierz temat</option>
+            <option name="f_temat" value="f_memy">Memy</option>
+            <option name="f_temat" value="f_opinia">Opinia</option>
+            <option name="f_temat" value="f_inne">Inne</option>
+        </select> <span class="err" id="e_temat"> </span><br>
+        <label>Treść</label><textarea rows="5" cols="20" name="uwagi" placeholder="Wpisz tutaj Twoją wiadomość"></textarea> <br/><br>
+        <label id="condition">Chcę zapisać się na newsletter i otrzymywać pisekowe memy! </label>
+        <input name="condition" type="checkbox"><br/><br>
+        <input type="submit" name="submit" value="Wyślij formularz" onclick="return validate(this.form);">
+    </fieldset>
+</form>
+<footer>
+    Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from
+    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><br>
+    <a class="mediaS" href="https://www.facebook.com/"><img src="pieski/fb.png" alt="facebook" title="https://www.facebook.pl/"/></a>
+    <a class="mediaS" href="https://www.youtube.com/"><img src="pieski/yt.png" alt="youtube" title="https://www.youtube.com/"/></a>
+    <a class="mediaS" href="https://www.instagram.com/"><img src="pieski/instagram.png" alt="instagram" title="https://www.instagram.com/"/></a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,60 @@
+/*#tab{*/
+/*    float: left;*/
+/*    background-color: white;*/
+/*    border-radius: 10px;*/
+/*    display: block;*/
+/*    border: solid 2px #553d1a;*/
+/*    margin: 2% 4% 0;*/
+/*    box-shadow: 5px 5px 10px;*/
+/*}*/
+
+#strona{
+    width: 90%;
+    padding-left: 1%;
+}
+#strona h1, h2{
+    padding-left: 2%;
+}
+table.spis{
+    border-collapse: collapse;
+}
+
+/*table.spis{*/
+/*    float: left;*/
+/*    background-color: white;*/
+/*    border-radius: 10px;*/
+/*    display: block;*/
+/*    border: solid 2px #553d1a;*/
+/*    margin: 2% 4% 0;*/
+/*    box-shadow: 5px 5px 10px;*/
+/*}*/
+
+table.spis th{
+    width: 17%;
+    padding-bottom: 1%;
+    padding-top: 4%;
+    vertical-align: middle;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+table.spis td{
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-top: #553d1a solid 2px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+table.spis img{
+    width: 100%;
+    box-shadow: 5px 5px 10px;
+    /*float: left;*/
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 630px) {
+    #strona {width: 553px;}
+}
