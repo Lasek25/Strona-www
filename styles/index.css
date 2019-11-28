@@ -48,7 +48,7 @@ h3{
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 header{
-    background-image: url("pieski/tlo.jpg");
+    background-image: url("../images/tlo.jpg");
     background-size: 3%;
 }
 nav.top{
@@ -83,7 +83,7 @@ nav.top li a{
 
 }
 nav.top ul a:hover{
-    background: #553d1a url("pieski/dog-paw.png") repeat-x 2% center;
+    background: #553d1a url("../images/dog-paw.png") repeat-x 2% center;
     color: white;
     border: 2px solid white;
     box-shadow: black 5px 5px 10px;
@@ -114,7 +114,7 @@ nav.right li a{
 
 }
 nav.right ul a:hover{
-    background: #553d1a url("pieski/dog-paw.png") repeat-x 2% center;
+    background: #553d1a url("../images/dog-paw.png") repeat-x 2% center;
     color: white;
     border: 2px solid white;
     box-shadow: black 5px 5px 10px;
